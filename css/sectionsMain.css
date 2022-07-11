@@ -1,0 +1,130 @@
+/*Geral*/
+.paragraph{
+    color:#7D82B8; font-size: 25px;margin-bottom: 25px;
+}
+.title2{
+    font-size:40px;margin-bottom: 30px;
+}
+/*Sessão principal*/
+.main{
+    background-color: #D8E4FF;
+    display: flex;
+    justify-content: space-between;
+}
+.text-main{
+    padding-left: 100px;
+    display: block;
+    margin: auto 0px auto 0px;
+}
+.text-main .main-welcome{
+    color: #7D82B8;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.text-main h1{
+    font-size: 56px;
+    color: #061800;
+    margin-bottom: 35px;
+}
+.text-main .main-footer{
+    color: #384633;
+    font-size: 23px;
+    margin-bottom: 40px;
+}
+.text-main .main-contato{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 35px;
+    background-color: #7D82B8;
+    color: #ffffff;
+    border-radius: 100px;
+}
+/*Sessão de Serviços*/
+.services{
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 100px 100px;
+}
+.conteiner-services{
+    display: flex;
+    flex-wrap: nowrap
+}
+.boxs-services{
+    border-radius: 5px;
+    margin: 10px 10px 30px 10px;
+    text-align: justify;
+    width: 32%;
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    padding: 58px 24px 58px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.755);
+    transition: 0.3s;
+}
+.boxs-services:hover{
+    background-color: #d4d4d4;
+}
+.boxs-services h2{
+    color: #212529;
+}
+.boxs-services p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #495057;
+}
+/*Section Depoimentos*/
+.depoimentos{
+    background-color: #FFFFFF;
+    padding: 100px 100px;
+    text-align: center;
+}
+/*Depoimentos dos usuarios*/
+.subconteiner-depoimentos{
+    justify-content: space-between;
+    text-align: justify;
+    display: flex;
+    height: 300px;
+}
+.user-depoimento{
+    display: flex;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.user-depoimento p{
+    margin: auto 15px;
+    color: #7D82B8;
+    font-size: 20px;
+}
+.boxs-depoimentos{
+    margin: 25px 10% 25px 10%;
+    display: none;
+    width: 30%;
+    background-color: #ddd8de;
+    border-radius: 5px;
+    padding: 25px;
+}
+/*butões*/
+.buttons-depoimento{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.proximo-anterior button{
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 20px;
+    background-color:#7D82B8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bullet{
+    display: flex;
+}
+.bullet-single{
+    margin:0 8px;
+    cursor: pointer;
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color: #EDF2FB;
+}
