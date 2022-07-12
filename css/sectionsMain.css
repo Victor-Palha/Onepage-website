@@ -85,9 +85,11 @@
     height: 300px;
 }
 .user-depoimento{
+    padding-bottom: 10px;
     display: flex;
     text-align: center;
     margin-bottom: 30px;
+    border-bottom: 1px solid #7D82B8;
 }
 .user-depoimento p{
     margin: auto 15px;
@@ -95,7 +97,8 @@
     font-size: 20px;
 }
 .boxs-depoimentos{
-    margin: 25px 10% 25px 10%;
+    height: 280px;
+    margin: 25px 10% 30px 10%;
     display: none;
     width: 30%;
     background-color: #ddd8de;
@@ -104,7 +107,7 @@
 }
 /*butões*/
 .buttons-depoimento{
-    margin-top: 25px;
+    margin-top: 25px !important;
     display: flex;
     justify-content: space-around;
 }
@@ -120,6 +123,102 @@
     display: flex;
 }
 .bullet-single{
+    margin:0 8px;
+    cursor: pointer;
+    display: inline-block;
+    width:20px;
+    height:20px;
+    border-radius:10px;
+    background-color: #EDF2FB;
+}
+
+/*Sobre*/
+.sobre{
+    background-color: #F5F5F5;
+    padding: 100px 100px;
+}
+.conteiner-sobre{
+    display: flex;
+    justify-content: space-around;
+}
+.text-sobre{
+    padding: 50px 0px;
+    width: 570px;
+    text-align: justify;
+    margin-left: 50px;
+}
+.text-sobre h2{
+    font-size: 20px;
+    color: #7D82B8;
+}
+.text-sobre h1{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+.text-sobre p{
+    color: #495057;
+    font-size: 20px;
+}
+
+.box-sobre{
+    text-align: center;
+    margin-top: 10%;
+    width: 25%; 
+}
+.box-sobre h1{
+    font-size: 40px;
+}
+.box-sobre p{
+    font-size: 20px;
+    color: #7D82B8;
+}
+
+.box-sobre#border-one{
+    border-left: 1px solid #00856F;
+}
+.box-sobre#border-two{
+    border-left: 1px solid #00856F;
+    border-right: 1px solid #00856F;
+}
+
+/*Estrutura*/
+.estrutura{
+    background-color: #d8e4ff;
+    text-align: center;
+    padding: 100px 50px;
+}
+.estrutura p{
+    font-size: 20px;
+    color: #7D82B8;
+    margin-bottom: 20px;
+}
+.estrutura h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.conteiner-estrutura{
+    display: flex;
+    justify-content: space-between;
+}
+.imgs{
+    display: none;
+}
+.setas{
+    margin: auto 10px;
+
+}
+.setas button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px;
+    background-color:#7D82B8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bullets{
+    margin-top: 20px;
+}
+.bullet-single2{
     margin:0 8px;
     cursor: pointer;
     display: inline-block;
