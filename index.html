@@ -185,15 +185,19 @@
                 depoimentos[5].style.display = 'block'
             }
             index = i
-            console.log(i)
+            console.log(`Contador principal: ${i}`)
         }
-        cTime = 0
+        
         setInterval(() => {
+                cTime = index
                 cTime = cTime + 1
-                if(cTime > 3){
-                    cTime = 0
-                }
+
                 slider(cTime)
+                if(cTime > 3){
+                    cTime = 1
+                    console.log(`Ctime: ${cTime}`)
+                    console.log(`index: ${index}`)
+                }
             }, 3000);
     </script>
 </body>
