@@ -67,9 +67,9 @@ function sliderImg(i){
         imgs[3].style.display = 'block'
     }
     index2 = i
-    console.log(`Contador principal: ${i}`)
+    console.log(`Contador principal das imgs: ${i}`)
 }
-
+/*
 setInterval(() => {
         cTime = index2
         cTime = cTime + 1
@@ -77,7 +77,7 @@ setInterval(() => {
         sliderImg(cTime)
         if(cTime > 4){
             cTime = 1
-            console.log(`Ctime: ${cTime}`)
-            console.log(`index: ${index}`)
+            console.log(`Ctime-img: ${cTime}`)
+            console.log(`index-img: ${index}`)
         }
-    }, 3000);
+    }, 3000);*/

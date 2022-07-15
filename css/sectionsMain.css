@@ -1,15 +1,19 @@
-/*Geral*/
+/*--------------------------------Geral*/
 .paragraph{
     color:#7D82B8; font-size: 25px;margin-bottom: 25px;
 }
 .title2{
     font-size:40px;margin-bottom: 30px;
 }
-/*Sessão principal*/
+/*--------------------------------Sessão principal*/
 .main{
+    padding-top: 150px;
     background-color: #D8E4FF;
     display: flex;
     justify-content: space-between;
+}
+.hamburguer{
+    display: none;
 }
 .text-main{
     padding-left: 100px;
@@ -39,7 +43,7 @@
     color: #ffffff;
     border-radius: 100px;
 }
-/*Sessão de Serviços*/
+/*--------------------------------Sessão de Serviços*/
 .services{
     text-align: center;
     background-color: #F5F5F5;
@@ -71,13 +75,13 @@
     font-size: 20px;
     color: #495057;
 }
-/*Section Depoimentos*/
+/*--------------------------------Section Depoimentos*/
 .depoimentos{
     background-color: #FFFFFF;
     padding: 100px 100px;
     text-align: center;
 }
-/*Depoimentos dos usuarios*/
+/*--------------------------------Depoimentos dos usuarios*/
 .subconteiner-depoimentos{
     justify-content: space-between;
     text-align: justify;
@@ -105,7 +109,7 @@
     border-radius: 5px;
     padding: 25px;
 }
-/*butões*/
+/*--------------------------------butões*/
 .buttons-depoimento{
     margin-top: 25px !important;
     display: flex;
@@ -131,8 +135,10 @@
     border-radius:10px;
     background-color: #EDF2FB;
 }
-
-/*Sobre*/
+.buttons-depoimento-mobile{
+    display: none;
+}
+/*--------------------------------Sobre*/
 .sobre{
     background-color: #F5F5F5;
     padding: 100px 100px;
@@ -180,8 +186,11 @@
     border-left: 1px solid #00856F;
     border-right: 1px solid #00856F;
 }
+.img-sobre-mobile{
+    display: none;
+}
 
-/*Estrutura*/
+/*--------------------------------Estrutura*/
 .estrutura{
     background-color: #d8e4ff;
     text-align: center;
@@ -205,7 +214,9 @@
 }
 .setas{
     margin: auto 10px;
-
+}
+.seta-mobile{
+    display: none;
 }
 .setas button{
     cursor: pointer;
@@ -227,7 +238,7 @@
     border-radius:10px;
     background-color: #EDF2FB;
 }
-/*Contato*/
+/*--------------------------------Contato*/
 .contato{
     background-color: #FEF9FF;
     text-align: center;
@@ -317,4 +328,27 @@
 .box-contato{
     text-align: left;
     margin: 30px 20px 0px 0px;
+}
+/*footer*/
+footer{
+    background-color: #7D82B8;
+    text-align: center;
+}
+.footer-text{
+    padding: 100px;
+    color: white;
+}
+.footer-text h1{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.footer-text strong{
+    font-style: italic;
+    font-weight: bold;
+}
+.footer-text p{
+    margin: 10px;
+}
+.footer-img{
+    margin-top: 20px;
 }

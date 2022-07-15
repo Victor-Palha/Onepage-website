@@ -1,0 +1,336 @@
+/*display 1150 or <*/
+@media screen and (max-width: 1150px){
+    /*===========================Estrutura*/
+    .imgs img{
+        width: 100%;
+    }
+    .setas{
+        display: none;
+    }
+    .mobile-estrutura{
+        display: flex;
+        justify-content: space-between;
+    }
+    .seta-mobile{
+        display: block;
+    }
+    .seta-mobile button{
+        cursor: pointer;
+        text-decoration: none;
+        padding: 20px;
+        background-color:#7D82B8;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid #b6ccff;
+    }
+}
+/*Display 1010 or <*/
+@media screen and (max-width: 1010px) {
+    /*--------------------------------header*/
+    .nav-bar{
+        padding: 25px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-contato{
+        display: none;
+    }
+    .hamburguer{
+        display: block;
+    }
+
+    /*--------------------------------Main Section*/
+    .main{
+        text-align: center;
+        display: block;
+    }
+    .text-main{
+        padding: 10px;
+    }
+    .img-main img{
+        width: 100%;
+    }
+
+    /*--------------------------------serviços*/
+    .services{
+        text-align: center;
+        background-color: #F5F5F5;
+        padding: 20px;
+    }
+    .conteiner-services{
+        display: block;
+    }
+    .boxs-services{
+        border-radius: 5px;
+        margin: 20px;
+        text-align: justify;
+        width: auto;
+        word-wrap: break-word;
+        background-color: #FFFFFF;
+        padding: 20px;
+    }
+    .boxs-services p{
+        margin-top: 20px;
+        font-size: 20px;
+        color: #495057;
+    }
+
+    /*--------------------------------Depoimentos*/
+    .depoimentos{
+        padding: 20px;
+        text-align: center;
+    }
+    /*--------------------------------Depoimentos dos usuarios*/
+    .subconteiner-depoimentos{
+        text-align: left;
+        display: block;
+        height: auto;
+    }
+    .user-depoimento{
+        padding-bottom: 10px;
+        display: flex;
+        text-align: center;
+        margin-bottom: 30px;
+        border-bottom: 1px solid #7D82B8;
+    }
+    .user-depoimento p{
+        margin: auto 15px;
+        color: #7D82B8;
+        font-size: 20px;
+    }
+    .boxs-depoimentos{
+        height: auto;
+        margin: 25px;
+        display: none;
+        width: auto;
+        background-color: #ddd8de;
+        border-radius: 5px;
+        padding: 25px;
+    }
+    /*--------------------------------butões*/
+    .proximo-anterior button{
+        margin: 0 15px;
+        text-decoration: none;
+        padding: 20px;
+        background-color:#7D82B8;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid #b6ccff;
+    }    
+    .buttons-depoimento-mobile{
+        margin-top: 25px !important;
+        display: flex;
+        justify-content: space-around;
+    }
+    .bullet{
+        display: flex;
+    }
+    .bullet-single-mobile{
+        margin:0 8px;
+        cursor: pointer;
+        display: inline-block;
+        width:20px;
+        height:20px;
+        border-radius:10px;
+        background-color: #EDF2FB;
+    }
+
+    .buttons-depoimento{
+        display: none;
+    }
+
+    /*--------------------------------sobre*/
+    .sobre{
+        padding: 10px;
+    }
+    .img-sobre{
+        display: none;
+    }
+    .img-sobre-mobile{
+        display: block;
+    }
+    .img-sobre-mobile img{
+        width: 100%;
+    }
+    .conteiner-sobre{
+        display: block;
+        text-align: center;
+    }
+    .text-sobre{
+        padding: 5px;
+        width: auto;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .box-sobre{
+        display: none;
+    }
+    /*--------------------------------contato*/
+    .contato{
+        padding: 10px;
+        
+    }
+    .contato-text{
+        width: auto;
+        text-align: center;
+    }
+    .contato-flex{
+        display: block;
+    }
+    .box-contato{
+        margin: 0px;
+    }
+    .contato-form{
+        margin-top: 50px;
+        padding: 20px;
+        width: auto;
+    }
+    .flex{
+        display: block;
+        text-align: left;
+    }
+    .contato-form form{
+        text-align: left;
+    }
+    .contato-form form textarea{
+        max-width: 300px;
+        min-width: 300px;
+    }
+    /*--------------------------------Footer*/
+    footer{
+        background-color: #7D82B8;
+        text-align: center;
+    }
+    .footer-text{
+        padding: 30px 0px;
+        color: white;
+    }
+    .footer-text h1{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .footer-text strong{
+        font-style: italic;
+        font-weight: bold;
+    }
+    .footer-text p{
+        margin: 10px;
+    }
+    .footer-img{
+        margin-top: 20px;
+    }
+}
+/*Display 425 or <*/
+@media screen and (max-width: 425px){
+    /*-------------Header*/
+    .nav-bar{
+        padding: 15px;
+    }
+    .nav-bar h1{
+        font-size: 25px;
+    /*---------------------------Main*/
+    }
+    .text-main h1{
+        font-size: 30px;
+    }
+    .main-footer{
+        font-size: 16px !important;
+    }
+    .text-main .main-contato{
+        padding: 10px;
+    }
+    /*---------------------------Serviços*/
+    .title2{
+        font-size: 30px;
+    }
+    .boxs-services{
+        margin: 5px 0px;
+        text-align: left;
+    }
+    /*===========================Depoimentos*/
+    .boxs-depoimentos{
+        margin: 10px 0px;
+    }
+    .proximo-anterior button{
+        margin: 0 5px;
+        padding: 15px;
+    }    
+    .bullet{
+        display: flex;
+    }
+    .bullet-single-mobile{
+        width:10px;
+        height:10px;
+    }
+    /*===========================Sobre*/
+
+    /*===========================Estrutura*/
+    .estrutura{
+        padding: 50px 0px;
+    }
+    .estrutura h1{
+        font-size: 30px;
+    }
+    .imgs img{
+        width: 100%;
+    }
+    .setas{
+        display: none;
+    }
+    .mobile-estrutura{
+        display: flex;
+        justify-content: space-between;
+    }
+    .seta-mobile{
+        display: block;
+    }
+    .seta-mobile button{
+        cursor: pointer;
+        text-decoration: none;
+        padding: 10px;
+        background-color:#7D82B8;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid #b6ccff;
+    }
+    .bullets{
+        margin-top: 20px;
+    }
+    .bullet-single2{
+        margin:0 8px;
+        width:10px;
+        height:10px;
+    }
+
+    /*---------------------------Contato*/
+    .contato{
+        padding: 30px 10px;
+    }
+    .contato-text h1{
+        font-size: 25px;
+    }
+    .contato-text p{
+        font-size: 16px;
+    }
+    .contato-text a{
+        padding: 10px;
+    }
+    .contato-flex{
+        margin: 30px 0px;
+    }
+    .contato-form{
+        margin: 50px 0px;
+        width: 100% !important;
+    }
+    .contato-form form{
+        text-align: left;
+        width: 100%;
+    }
+    .contato-form form textarea{
+        width: 180px;
+        max-width: 180px;
+        min-width: 180px;
+    }
+    
+}

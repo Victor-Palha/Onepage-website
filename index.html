@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sectionsMain.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DentalCare</title>
 </head>
@@ -13,6 +14,9 @@
         <nav class="nav-bar">
             <div class="nav-logo">
                 <a href="#"><h1>dental<strong>Care</strong></h1></a>
+            </div>
+            <div class="hamburguer">
+                <img src="img/Icon.png" alt="">
             </div>
             <div class="nav-links">
                 <a href="#">Início</a>
@@ -122,6 +126,20 @@
                     <div onclick="bullet(3)" class="bullet-single"></div>
                 </div>
             </div>
+            <div class="buttons-depoimento-mobile">
+                <div class="proximo-anterior">
+                    <button onclick="anterior(1)">&#10094;</button>
+                </div>
+                    <div class="bullets">
+                        <div onclick="bulletMob(1)" class="bullet-single-mobile" style="background-color: #7D82B8;"></div>
+                        <div onclick="bulletMob(3)" class="bullet-single-mobile"></div>
+                        <div onclick="bulletMob(2)" class="bullet-single-mobile"></div>
+                    </div>
+                <div class="proximo-anterior">
+                    <button onclick="proximo(1)">&#10095;</button>
+                </div>
+            </div>
+            </div>
         </div>
     </section>
     <section class="sobre">
@@ -133,6 +151,9 @@
                 <h2>SOBRE NÓS<h2>
                 <h1>Quem somos?</h1>
                 <p>A DentalCare é sinônimo de modernidade quando nos referimos à clínica odontológica em todo o Brasil. Voltada para a arte de fazer você sorrir, fundada em 2007, foi instalada em Belém do Pará, incialmente, e expandida por todo o territótio nacional, com objetivo de ser uma clínica voltada para a satisfação de seu usuário, tendo como foco principal você, paciente. Faça um agendamento de consulta conosco e tenha um atendimento diferenciado, com profissionais que se preocupam com seu bem estar!</p>
+            </div>
+            <div class="img-sobre-mobile">
+                <img src="img/happy-doctor-holding-a-clipboard-with-patients.png" alt="">
             </div>
         </div>
         <div class="conteiner-sobre">
@@ -175,7 +196,16 @@
                     <img src="img/slider4.png" alt="">
                 </div>
             </div>
+            
             <div class="setas">
+                <button onclick="next(1)">&#10095;</button>
+            </div>
+        </div>
+        <div class="mobile-estrutura">
+            <div class="seta-mobile">
+                <button onclick="previous(1)">&#10094;</button>
+            </div>
+            <div class="seta-mobile">
                 <button onclick="next(1)">&#10095;</button>
             </div>
         </div>
@@ -217,6 +247,17 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer-text">
+            <h1>DENTAL<strong>CARE</strong></h1>
+            <p>Av. Nazaré, 346</p>
+            <p>Todos os direitos reservados.</p>  
+            <div class="footer-img">
+                <img src="img/Redes sociais.png" alt="redes sociais">
+            </div>
+        </div>
+        
+    </footer>
     <script src="js/sliderText.js"></script>
     <script src="js/sliderImg.js"></script>
 </body>
